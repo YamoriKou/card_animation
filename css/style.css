@@ -1,0 +1,44 @@
+.db{
+    width: 100%;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg{
+    width: 180px;
+    height: 150px;
+    background-color: black;
+    transition: 5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg:hover{
+    transform: rotate(360deg);
+    background-color: rgb(69, 70, 88);
+    box-shadow: 0 0 40px 3px rgb(93, 0, 169);
+}
+
+p{
+    cursor: pointer;
+    transition: 1.4s;
+    text-transform: uppercase;
+}
+
+.gd:hover{
+    transform: scale(1.3);
+}
+
+.gd{
+    transition: 5s;
+}
+
+p:hover{
+    color: white;
+    transform: scale(1.1);
+    
+}
+
